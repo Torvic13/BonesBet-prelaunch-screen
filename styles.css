@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'SpaceMono';
+    src: url(./font/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ArchivoBlack';
+    src: url(./font/ArchivoBlack-Regular.ttf);
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    background-color: #141414;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    order: 1;
+
+    height: 136px;
+    width: 136px;
+}
+
+#timer {
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 33px;
+    width: 197px;
+
+    font-family: 'ArchivoBlack';
+    color: #FFFFFF;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+
+div > span {
+    color: #F88512;
+}
+
+h1 {
+    order: 3;
+
+    width: 142px;
+    height: 31px;
+
+    font-family: 'SpaceMono';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.313rem;
+}
