@@ -1,3 +1,3 @@
-# Tiny Bones Waiting screen
+# BonesBet prelaunch screen
 
-A timer i made for the launch of BonesBet.io, by the Tiny Bones Club.
+A timer i made for the launch of the website BonesBet.io
